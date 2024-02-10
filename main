@@ -3,9 +3,10 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{url}
+\pagestyle{empty}
 
 % Define off-white color
-\definecolor{offwhite}{RGB}{255, 255, 240}
+\definecolor{offwhite}{RGB}{255, 255, 238}
 
 % Set background color
 \pagecolor{offwhite}
@@ -13,7 +14,8 @@
 % Set link colors
 \hypersetup{
     linkcolor=black,
-    urlcolor=black
+    urlcolor=black,
+    pdfborder={0 0 0}
 }
 
 % Set URL style to italic
